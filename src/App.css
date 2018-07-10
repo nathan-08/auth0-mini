@@ -23,4 +23,21 @@
   margin: 20px;
   padding: 20px;
   border: 1px silver solid;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.blue {
+  color: #00aacc;
+}
+
+.highlight {
+  /* background: #777; */
+  color: #00aacc;
+  /* border-radius: 4px; */
+  padding: .1rem .4rem;
+}
+
+tr:nth-child(even) {
+  background: #eee;
 }
